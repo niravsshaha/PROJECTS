@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<title>
+		LED Interface
+	</title>
+	<body>
+		<form action="/lo/" method="POST" />
+			
+			<input type="submit" value="Turn on light"/>
+		</form>
+			<form action="/loff/" method="POST" />
+			
+			<input type="submit" value="Turn off light"/>
+		</form>
+           <form action="/ao/" method="POST" />
+			
+			<input type="submit" value="Turn on AC"/>
+		</form>
+<form action="/aoff/" method="POST" />
+			
+			<input type="submit" value="Turn off AC"/>
+		</form>
+
+<form action="/aoff/" method="POST" />
+			
+			<input type="submit" value="change mode"/>
+		</form>
+	</body>
+</html>
