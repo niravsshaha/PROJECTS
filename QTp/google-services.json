@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "688272500505",
+    "firebase_url": "https://qtpapp-b0d13.firebaseio.com",
+    "project_id": "qtpapp-b0d13",
+    "storage_bucket": "qtpapp-b0d13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688272500505:android:ff4680511e805746",
+        "android_client_info": {
+          "package_name": "io.github.ashwinwadte.qtp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688272500505-he6r2s0pk2klg93glebvfsb8pndj6qc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.ashwinwadte.qtp",
+            "certificate_hash": "517B838DC26E5EA98B345CDED7441D6E648C1EBC"
+          }
+        },
+        {
+          "client_id": "688272500505-ng3caekgevp55316cu6l5itlaq6ebdlj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeICKHnIN0dBZseIfSVWuL92PRyGYoB-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688272500505-ng3caekgevp55316cu6l5itlaq6ebdlj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

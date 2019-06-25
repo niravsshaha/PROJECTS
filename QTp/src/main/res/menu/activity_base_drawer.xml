@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_add_amount"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="Add Amount" />
+
+    <item
+        android:id="@+id/nav_transactions"
+        android:icon="@drawable/ic_transform_black_24dp"
+        android:title="Your Transactions" />
+
+
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Sign out" />
+
+</menu>
