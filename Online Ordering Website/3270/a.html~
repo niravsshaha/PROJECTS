@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+ 
+  <link rel="shortcut icon" href="https://www.iconfinder.com/icons/3100364/fast_food_junk_pizza_icon">
+  <title>PIZZA DELIVERY</title>
+  <link rel="stylesheet" type="text/css" href="a.css"/>
+
+
+</head>
+<body  background="a.jpg"  text=#FFFFFF >
+<div class="navbar">
+  <a href="#top">Home</a>
+ 
+  <a href="#footer">Contact</a>
+  <a href="login\login.html">Login</a>
+  <a href="login\login.html#toregister">Signup</a>
+  
+</div>
+
+ 
+  <h2 class="forms"></h2>
+  <form method="post" name="forms"
+        action="a.html">
+    <div class="forms">
+      <div class="cell1">
+		<p><br><br></p>
+        <h1 style="color:black"><i><center> Pizza Time</center></i></h3>
+        
+        <table>
+          <tr >
+            <td>Small</td>
+            <td>Rs 200</td>
+          </tr>
+          <tr id="m">
+            <td>Medium</td>
+            <td>Rs 300</td>
+          </tr>
+          <tr id="l">
+            <td>Large</td>
+            <td>Rs 400</td>
+          </tr>
+          <tr id="xl">
+            <td>X-Large</td>
+            <td>Rs 500</td>
+          </tr>
+          <tr>
+            <td colspan="2">Toppings</td>
+          </tr>
+          <tr>
+            <td>Rs 30 Each</td>
+          </tr>
+          <tr>
+            <td colspan="2">Plus 13% HST</td>
+          </tr>
+          <tr>
+            <td colspan="2">Free Delivery</td>
+          </tr>
+        </table>
+        Your Price<br />
+        <input name="price" size="8" readonly="readonly" />
+      </div>
+      <div class="forms2">
+        <fieldset>
+          <legend>Personal Information</legend>
+          Name <input name="name" /><br />
+          Account No. <input type="number" name="account" /><br />
+          Phone No. <input type="tel" name="phone" /><br />
+          Date of Birth <input type="date" name="birthday" />
+        </fieldset>
+        <fieldset>
+          <legend>Pizza size &amp; Crust</legend>
+          <select name="size" size="2">
+            <option>Select Pizza Size</option>
+            <option value="1">Small</option>
+            <option value="2">Medium</option>
+            <option value="3">Large</option>
+            <option value="4">X-Large</option>
+          </select>
+          <select name="crust" size="2">
+            <option value="1">Regular Crust</option>
+            <option value="2">Thin Crust</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Cheeses</legend>
+          <input type="radio" name="cheese" value="1" />Mozzarella
+          <input type="radio" name="cheese" value="2" />Reduced Fat
+          <input type="radio" name="cheese" value="3" />Feta
+        </fieldset>
+        <fieldset>
+          <legend>Sauces</legend>
+          <input type="radio" name="sauce" value="1" />Pizza Sauce
+          <input type="radio" name="sauce" value="2" />BBQ Sauce
+          <input type="radio" name="sauce" value="3" />Garlic Sauce
+        </fieldset>
+        <fieldset>
+          <legend>Special Instructions</legend>
+          <textarea name="instructions" rows="3" cols="42"></textarea>
+        </fieldset>
+        <input type="submit" value="PLACE YOUR ORDER" />
+        <input type="reset" value="START OVER" />
+      </div>
+      <div class="forms2">
+        <fieldset>
+          <legend>Choose Toppings - Rs 30 Each</legend>
+          <div class="forms2">
+            <input type="checkbox" name="topping" value="1" /> Anchovies<br />
+            <input type="checkbox" name="topping" value="2" /> Bacon<br />
+            <input type="checkbox" name="topping" value="3" /> Ham<br />
+          
+          </div>
+          <div class="forms2">
+            <input type="checkbox" name="topping" value="7" /> Broccoli<br />
+            <input type="checkbox" name="topping" value="8" /> Green Olives<br />
+            <input type="checkbox" name="topping" value="9" /> Green Peppers<br />
+         
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </form>
+  <footer>
+    <section>
+      <script type="text/javascript">
+
+          var dt=new Date(document.lastModified); 
+          document.write('<p> </p>';
+
+      </script>
+    </section>
+  </footer>
+<hr/>
+    <a name="footer">  <center><b> <span style="color:black" >  <p style="font-size:150%">Contact<br>1800180000</span></p></b> </center>
+<hr/>
+</body>
+</html>
+

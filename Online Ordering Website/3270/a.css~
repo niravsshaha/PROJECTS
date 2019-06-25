@@ -1,0 +1,31 @@
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  width:100%;
+  text-decoration: none;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#m
+{
+	font-size:20px
+}
+#l
+{
+	font-size:30px
+}
+#xl
+{
+	font-size:35px
+}

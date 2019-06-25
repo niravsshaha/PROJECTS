@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html> 
+<head>
+
+<script type="text/javascript">
+	function printChecked(){
+		var items=document.getElementsByName('ca');
+		var selectedItems="";
+		var n=null;
+		for(var i=0; i<items.length; i++){
+			if( items[i].checked==true)
+			{	
+				n++;
+			}
+			
+		}
+		n=n*30;
+	var x = document.getElementById("mySelect");
+	var i = x.selectedIndex;
+	var s= x.options[i].text
+	if(s=="Small")
+	{
+		n=n+200;
+	}
+	else if (s=="Medium")
+	{
+		n=n+300;
+	}
+	else if (s=="Large")
+	{
+		n=n+400;
+	}
+	else
+	{
+		n=n+500;
+	}
+		var x = document.getElementById("crust");
+		var i = x.selectedIndex;
+		var s= x.options[i].text
+		if(s=="Thin-Crust")
+		{
+		n=n+100;
+		}
+document.getElementById("pp").value = n;
+		var x = document.getElementById("name");
+
+		alert("Your order has been placed by \n Name:"+ x.value +"\n Bill Amount :"+n );
+	}		
+	
+</script>
+
+
+  <meta charset="UTF-8" />
+ 
+  <link rel="shortcut icon" href="https://www.iconfinder.com/icons/3100364/fast_food_junk_pizza_icon">
+  <title>PIZZA DELIVERY</title>
+  <link rel="stylesheet" type="text/css" href="a.css"/>
+</head>
+
+<body  background="b.jpg"  text=#FFFFFF >
+<div class="navbar">
+  <a href="#top">Home</a>
+
+  <a href="#footer">Contact</a>
+  <a href="../../home/a.html">Logout</a>
+
+  <p style="text-align:right">WELCOME ! !   i</p>
+</div>
+
+ 
+  <form method="post" name="forms" action="a.html">
+    <div class="forms">
+      <div class="cell1">
+		<p><br><br></p>
+        <h1 style="color:black"><i><center> Pizza Time</center></i></h3>
+        
+        <table>
+          <tr >
+            <td>Small</td>
+            <td>Rs 200</td>
+          </tr>
+          <tr id="m">
+            <td>Medium</td>
+            <td>Rs 300</td>
+          </tr>
+          <tr id="l">
+            <td>Large</td>
+            <td>Rs 400</td>
+          </tr>
+          <tr id="xl">
+            <td>X-Large</td>
+            <td>Rs 500</td>
+          </tr>
+          <tr>
+            <td colspan="2">Toppings</td>
+          </tr>
+          <tr>
+            <td>Rs 30 Each</td>
+          </tr>
+         
+          <tr>
+            <td colspan="2">Free Delivery</td>
+          </tr>
+        </table>
+        Your Price<br />
+        <input id="pp"name="price" size="8" readonly="readonly" />
+      </div>
+      <div class="forms2">
+        <fieldset>
+          <legend>Personal Information</legend>
+          Name <input id="name" name="name" /><br />
+          Account No. <input type="number" name="account" /><br />
+          Phone No. <input type="tel" name="phone" /><br />
+          Date of Birth <input type="date" name="birthday" />
+        </fieldset>
+        <fieldset>
+          <legend>Pizza size &amp; Crust</legend>
+          <select id="mySelect" name="size" size="2">
+            <option value="1">Small</option>
+            <option value="2">Medium</option>
+            <option value="3">Large</option>
+            <option value="4">X-Large</option>
+          </select>
+          <select id="crust" name="crust" size="2">
+            <option value="1">Regular-Crust</option>
+            <option value="2">Thin-Crust</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Cheeses</legend>
+          <input type="checkbox" name="ca" value="1" id="aaa" />Mozzarella  30/-
+          <input type="checkbox" name="ca" value="2" id="aaa" />Reduced Fat 30/-
+          <input type="checkbox" name="ca" value="3" id="aaa" />Feta	    30/-
+        </fieldset>
+        <fieldset>
+          <legend>Sauces</legend>
+          <input type="radio" name="ca" value="1" id="aaa" />Pizza Sauce 30/-
+          <input type="radio" name="ca" value="2" id="aaa" />BBQ Sauce   30/-
+          <input type="radio" name="ca" value="3" id="aaa" />Garlic Sauce30/-
+        </fieldset>
+        <fieldset>
+          <legend>Special Instructions</legend>
+          <textarea name="instructions" rows="3" cols="42"></textarea>
+        </fieldset>
+        
+      
+        <fieldset>
+          <legend>Choose Toppings - Rs 30 Each</legend>
+          <div class="forms2">
+            <input type="checkbox" name="ca" value="1" id="aaa" /> Anchovies<br />
+            <input type="checkbox" name="ca" value="2" id="aaa" /> Bacon<br />
+            <input type="checkbox" name="ca" value="3" id="aaa"/> Ham<br />
+            <input type="checkbox" name="ca" value="4" id="aaa"/> Broccoli<br />
+            <input type="checkbox" name="ca" value="5" id="aaa"/> Green Olives<br />
+            <input type="checkbox" name="ca" value="6" id="aaa"/> Green Peppers<br />
+         
+          </div>
+        </fieldset>
+		<input type="button" value="click" onclick="printChecked()">	
+
+        <input type="reset" value="START OVER" />
+      </div>
+    </div>
+  </form>
+
+<hr/>
+    <a name="footer">  <center><b> <span style="color:black" >  <p style="font-size:150%">Contact<br>9999999999</span></p></b> </center>
+<hr/>
+</body>
+
+
+
+
+
+
+</html>
+
